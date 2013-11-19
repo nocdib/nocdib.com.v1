@@ -18,6 +18,7 @@ body {
 
 .wrapper {
     background:url(../img/raster.png);
+	/* opacity:0.5; */
     position: absolute;
     width: 500%;
     height: 100%;
@@ -67,7 +68,7 @@ header {
     z-index: 999;
     color: #fff;
 	background:url(../img/raster.png);
-    background: rgba(50,0,50,0.5);
+    background: rgba(255,51,51,0.5); /* rgba(50,0,50,0.5); */
     padding: 60px;
     width: 400px;
     height: 400px;
@@ -94,7 +95,7 @@ header h1 span {
 
 header p {
     font-family: Cambria, Georgia, serif;
-    font-style: italic;
+    /* font-style: italic; */
 }
 
 /* Video Pages */
